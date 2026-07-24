@@ -5,16 +5,12 @@ class Classroom:
         num = int()
         #get keys
         for k in label:
-            num += int(label[k])
+            num += label[k]
             # print(f"num={num}")
         return float(num/len(label))
 
-
-
-
 classe = Classroom()
 average = classe.average
-
 
 class_3B = {
         "marine": 18,

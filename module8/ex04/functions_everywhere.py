@@ -12,7 +12,7 @@ def shrink(param_str):
 
 def enlarge(param_str):
     appender = 8 - len(param_str)
-    print(param_str + appender*"z")
+    print(param_str + appender*"Z")
 
 for param in user_str:
     if 8 < len(param):
